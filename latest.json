@@ -1,0 +1,19 @@
+{
+    "version":  "1.0.1",
+    "url":  "https://github.com/romyrudiansah/putar/releases/download/v1.0.1/Putar-Setup-1.0.1.exe",
+    "size":  36442975,
+    "sha256":  "3c13027c59598632124979bb3a67a19a11c5948e80cbc7a8aaa14e950d4f1f33",
+    "date":  "2026-11-09",
+    "notes":  {
+                  "id":  [
+                             "Alamat situs video lewat yt-dlp kini bekerja di komputer dengan antivirus yang memeriksa HTTPS, karena yt-dlp memakai sertifikat Windows.",
+                             "Pesan galat yt-dlp kini menyebut penyebabnya: situs meminta masuk akun, sertifikat HTTPS, atau yt-dlp perlu diperbarui.",
+                             "Kode sumber mpv dan FFmpeg yang dipakai (LGPL) terlampir di rilis ini."
+                         ],
+                  "en":  [
+                             "Video site addresses through yt-dlp now work on computers with antivirus software that inspects HTTPS, because yt-dlp uses the Windows certificates.",
+                             "yt-dlp error messages now name the cause: the site asks you to sign in, an HTTPS certificate, or yt-dlp needs updating.",
+                             "The source code of the mpv and FFmpeg versions used (LGPL) is attached to this release."
+                         ]
+              }
+}
