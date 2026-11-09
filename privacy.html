@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id" data-lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Putar: kebijakan privasi</title>
+  <meta name="description" content="Kebijakan privasi aplikasi dan situs Putar.">
+  <meta name="theme-color" content="#0E0F0B">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      var d = document.documentElement, l = null, t = null;
+      try { l = localStorage.getItem("putar-lang"); t = localStorage.getItem("putar-theme"); } catch (e) {}
+      if (l !== "id" && l !== "en") l = /^id\b/i.test(navigator.language || "") ? "id" : "en";
+      d.dataset.lang = l;
+      d.lang = l;
+      if (t === "light") d.dataset.theme = "light";
+    })();
+  </script>
+</head>
+<body>
+<!-- Isi halaman ini harus sama dengan PRIVACY.md di repo. -->
+<a class="skip" href="#isi"><span data-l="id">Langsung ke isi</span><span data-l="en">Skip to content</span></a>
+
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="./"><img src="img/logo.svg" alt="" width="30" height="30">Putar</a>
+    <div class="tools">
+      <button class="tool" type="button" data-switch-lang>
+        <span data-l="id" aria-label="Switch to English">EN</span><span data-l="en" aria-label="Ganti ke Bahasa Indonesia">ID</span>
+      </button>
+      <button class="tool tool-icon" type="button" data-switch-theme aria-pressed="false">
+        <span class="sr-only"><span data-l="id">Mode terang</span><span data-l="en">Light mode</span></span>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="isi" class="doc wrap">
+  <h1><span data-l="id">Kebijakan privasi</span><span data-l="en">Privacy policy</span></h1>
+  <p class="meta"><span data-l="id">Terakhir diperbarui: 9 November 2026</span><span data-l="en">Last updated: 9 November 2026</span></p>
+  <p><span data-l="id">Putar adalah pemutar video dan audio untuk Windows.</span><span data-l="en">Putar is a video and audio player for Windows.</span></p>
+
+  <h2><span data-l="id">Data yang disimpan aplikasi</span><span data-l="en">What the app stores</span></h2>
+  <p><span data-l="id">Putar menyimpan pengaturan, riwayat putar, playlist terakhir, penanda, dan laporan galat di <code>%APPDATA%\Putar</code> di komputer Anda. Riwayat berisi lokasi atau alamat yang Anda putar, judul, durasi, dan posisi terakhirnya. Anda bisa menghapus riwayat di Pengaturan → Riwayat, dan uninstaller juga menawarkan untuk menghapus folder itu. Pustaka hanya membaca nama file di folder yang Anda pilih, dan hasilnya tidak disimpan. Kunci API OpenSubtitles, bila Anda mengisinya, tersimpan di pengaturan sebagai teks biasa.</span><span data-l="en">Putar keeps its settings, playback history, last playlist, bookmarks, and error reports in <code>%APPDATA%\Putar</code> on your computer. The history holds the path or address of what you played, its title, length, and last position. You can delete the history in Settings → History, and the uninstaller offers to delete that folder too. The library only reads file names in the folders you choose, and the result is not saved. Your OpenSubtitles API key, if you enter one, is stored in the settings as plain text.</span></p>
+  <p><span data-l="id">Tangkapan layar yang Anda ambil masuk ke folder pilihan Anda, bawaannya <code>Gambar\Putar</code>.</span><span data-l="en">Screenshots you take go to the folder you choose, by default <code>Pictures\Putar</code>.</span></p>
+
+  <h2><span data-l="id">Sambungan internet aplikasi</span><span data-l="en">What the app connects to</span></h2>
+  <p><span data-l="id">Putar tersambung ke internet dalam empat keadaan, dan tidak mengirim data pemakaian ke pengembang:</span><span data-l="en">Putar connects to the internet in four cases, and it sends no usage data to the developer:</span></p>
+  <ul>
+    <li><span data-l="id">Saat Anda membuka alamat internet. Bila yt-dlp terpasang dan alamat itu bukan file langsung, yt-dlp ikut menghubungi situs tersebut.</span><span data-l="en">When you open an internet address. If yt-dlp is installed and the address is not a direct file, yt-dlp contacts that site too.</span></li>
+    <li><span data-l="id">Sekali sehari untuk memeriksa versi baru, dengan meminta <code>latest.json</code> dari situs Putar di GitHub Pages. Tidak ada data Anda di dalam permintaan itu, dan pemeriksaan ini bisa dimatikan di Pengaturan → Pembaruan. Installer baru diunduh dari GitHub hanya bila Anda setuju.</span><span data-l="en">Once a day to check for a new version, by requesting <code>latest.json</code> from the Putar website on GitHub Pages. That request carries none of your data, and you can turn the check off in Settings → Updates. A new installer is downloaded from GitHub only if you agree.</span></li>
+    <li><span data-l="id">Saat Anda menekan Cari di dialog subtitle online. Kata pencarian, hash file, bahasa, dan kunci API Anda dikirim ke OpenSubtitles dan mengikuti kebijakan privasi mereka.</span><span data-l="en">When you press Search in the online subtitle dialog. The search words, a file hash, the languages, and your API key are sent to OpenSubtitles and fall under their privacy policy.</span></li>
+    <li><span data-l="id">Saat Anda menekan Pasang yt-dlp, untuk mengunduhnya dari GitHub.</span><span data-l="en">When you press Install yt-dlp, to download it from GitHub.</span></li>
+  </ul>
+  <p><span data-l="id">Laporan galat ditulis hanya ke komputer Anda dan tidak dikirim ke mana pun. Anda sendiri yang memutuskan apakah menyalinnya ke Komunitas.</span><span data-l="en">Error reports are written only to your computer and are not sent anywhere. You decide whether to copy one to the Community.</span></p>
+
+  <h2><span data-l="id">Yang tidak kami lakukan</span><span data-l="en">What we do not do</span></h2>
+  <ul>
+    <li><span data-l="id">Tidak ada analitik, telemetri, iklan, atau pelacakan.</span><span data-l="en">No analytics, telemetry, advertising, or tracking.</span></li>
+    <li><span data-l="id">Tidak ada akun, dan tidak ada data yang dijual atau dibagikan.</span><span data-l="en">No accounts, and no data sold or shared.</span></li>
+  </ul>
+  <p><span data-l="id">Situs Putar juga tidak memakai cookie, analitik, atau sumber dari pihak lain. Pilihan bahasa dan tema Anda disimpan di browser Anda sendiri. Situs, unduhan, dan diskusi komunitas berada di GitHub (<a href="https://github.com/romyrudiansah/putar">github.com/romyrudiansah/putar</a>), yang bisa mencatat permintaan seperti kunjungan web biasa. Yang Anda tulis di diskusi bersifat publik dan mengikuti kebijakan privasi GitHub.</span><span data-l="en">The Putar website doesn't use cookies, analytics, or third-party resources either. Your language and theme choice are stored in your own browser. The website, downloads, and community discussions are hosted on GitHub (<a href="https://github.com/romyrudiansah/putar">github.com/romyrudiansah/putar</a>), which may log requests like any web visit. What you post in the discussions is public and covered by GitHub's privacy policy.</span></p>
+
+  <h2><span data-l="id">Kontak</span><span data-l="en">Contact</span></h2>
+  <p><span data-l="id">Pertanyaan tentang kebijakan ini:</span><span data-l="en">Questions about this policy:</span> <a href="mailto:romy.rudiansah@gmail.com">romy.rudiansah@gmail.com</a>.</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <p>Putar 1.0.0 · Romy Rudiansah</p>
+    <nav aria-label="Footer">
+      <a href="./"><span data-l="id">Halaman utama</span><span data-l="en">Home</span></a>
+      <a href="LICENSE.txt"><span data-l="id">Lisensi</span><span data-l="en">License</span></a>
+    </nav>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

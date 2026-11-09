@@ -1,0 +1,33 @@
+{
+    "version":  "1.0.0",
+    "url":  "https://github.com/romyrudiansah/putar/releases/download/v1.0.0/Putar-Setup-1.0.0.exe",
+    "size":  36438470,
+    "sha256":  "2eb77b7a2d6c0f02cef969ab20b789a0b6937d9f05be39f41c92676f2143cd57",
+    "date":  "2026-11-09",
+    "notes":  {
+                  "id":  [
+                             "Pembaruan otomatis: Putar memberi tahu saat ada versi baru dan memasangnya sendiri. Bisa dimatikan di Pengaturan.",
+                             "Tombol media di keyboard dan panel media Windows bekerja, juga saat Putar diminimalkan.",
+                             "Dua subtitle sekaligus, gaya subtitle, pilihan pengodean, dan pencarian subtitle online lewat OpenSubtitles dengan kunci API.",
+                             "Alamat halaman situs video lewat yt-dlp, yang bisa dipasang dari Pengaturan.",
+                             "Semua pintasan bisa diubah. Playlist diingat, ada pustaka folder, penanda, visualisasi musik, mode kecil, dan aksi setelah playlist selesai.",
+                             "Folder DVD dan Blu-ray diputar langsung ke judul utama, tanpa menu.",
+                             "Laporan galat disimpan hanya di komputer Anda, dan bisa Anda salin ke Komunitas.",
+                             "Perbaikan: isi panel kanan tidak lagi tertimpa video pada label panjang, dan ukuran serta posisi subtitle tersimpan saat Putar dibuka lagi.",
+                             "Pengguna 0.1.0 perlu memasang versi ini secara manual sekali, karena pembaruan otomatis baru ada mulai 1.0.0.",
+                             "Kode sumber mpv dan FFmpeg yang dipakai (LGPL) terlampir di rilis ini."
+                         ],
+                  "en":  [
+                             "Automatic updates: Putar tells you when a new version is out and installs it. You can turn this off in Settings.",
+                             "Keyboard media keys and the Windows media panel work, also while Putar is minimized.",
+                             "Two subtitles at once, subtitle styling, encoding choice, and online subtitle search through OpenSubtitles with an API key.",
+                             "Video site page addresses through yt-dlp, which you can install from Settings.",
+                             "Every shortcut can be changed. The playlist is remembered, and there is a folder library, bookmarks, music visualization, mini mode, and an action for when the playlist ends.",
+                             "DVD and Blu-ray folders play straight to the main title, without menus.",
+                             "Error reports stay on your computer, and you can copy them to the Community.",
+                             "Fixes: long labels no longer let the video cover the right panel, and subtitle size and position are kept when Putar reopens.",
+                             "Users of 0.1.0 need to install this version by hand once, because automatic updates start with 1.0.0.",
+                             "The source code of the mpv and FFmpeg versions used (LGPL) is attached to this release."
+                         ]
+              }
+}
