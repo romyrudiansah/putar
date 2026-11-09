@@ -1,0 +1,23 @@
+{
+    "version":  "1.0.2",
+    "url":  "https://github.com/romyrudiansah/putar/releases/download/v1.0.2/Putar-Setup-1.0.2.exe",
+    "size":  36448804,
+    "sha256":  "7dd25eb07e5e81fe0349b5b8dd2127186b6317f8ea15fd1ac08da66927811573",
+    "date":  "2026-11-09",
+    "notes":  {
+                  "id":  [
+                             "Pilihan cookie browser untuk yt-dlp di Pengaturan, untuk situs yang meminta masuk akun. Bawaannya mati, dan Putar hanya menyimpan nama browsernya.",
+                             "Chrome menolak saat diuji karena mengunci cookie-nya, dan YouTube belum pernah terputar lewat cookie. Putar menyebut penyebabnya bila cookie gagal dibaca.",
+                             "Perbaikan: tombol seperti Pilih folder dan pilihan rotasi tidak lagi tampil dengan karakter rusak.",
+                             "Perbaikan: tidur setelah playlist selesai kini mengaktifkan hak yang diminta Windows, dan bila tidur atau matikan gagal, Putar menampilkan pesan.",
+                             "Kode sumber mpv dan FFmpeg yang dipakai (LGPL) terlampir di rilis ini."
+                         ],
+                  "en":  [
+                             "A browser cookie choice for yt-dlp in Settings, for sites that ask you to sign in. It is off by default, and Putar only stores the browser name.",
+                             "Chrome refused when tested because it locks its cookies, and YouTube has not yet played through cookies. Putar names the cause when cookies cannot be read.",
+                             "Fix: buttons such as Choose folder and the rotation choices no longer show garbled characters.",
+                             "Fix: sleep after the playlist ends now enables the privilege Windows asks for, and Putar shows a message if sleep or shutdown fails.",
+                             "The source code of the mpv and FFmpeg versions used (LGPL) is attached to this release."
+                         ]
+              }
+}
