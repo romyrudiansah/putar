@@ -1,0 +1,32 @@
+Lisensi Putar (freeware)
+========================
+
+Hak cipta (c) 2026 Romy Rudiansah. Semua hak dilindungi.
+
+Putar adalah perangkat lunak gratis (freeware), bukan perangkat lunak sumber terbuka. Lisensi ini berlaku untuk putar.exe. Komponen pihak ketiga memakai lisensinya sendiri, termasuk libmpv-2.dll.
+
+1. Anda boleh memasang dan memakai Putar secara gratis, untuk keperluan pribadi maupun komersial, di komputer sebanyak yang Anda perlukan.
+2. Anda boleh membagikan installer Putar yang tidak diubah, tanpa memungut biaya. Lebih baik bagikan tautan website resminya: https://romyrudiansah.github.io/putar/
+3. Anda tidak boleh menjual Putar, mengubah putar.exe, atau membongkarnya (reverse engineering, decompile, disassemble), kecuali sejauh diizinkan hukum yang berlaku dan ketentuan nomor 4.
+4. Ketentuan nomor 3 tidak membatasi hak Anda atas libmpv-2.dll. File itu berisi mpv dan FFmpeg di bawah LGPL. Anda boleh mengubahnya atau menggantinya dengan build lain yang kompatibel, dan boleh melakukan reverse engineering pada Putar sejauh diperlukan untuk men-debug perubahan itu.
+5. Putar disediakan "apa adanya", tanpa jaminan apa pun. Sejauh diizinkan hukum yang berlaku, pembuatnya tidak bertanggung jawab atas kerugian yang timbul dari pemakaian Putar.
+6. Daftar komponen pihak ketiga, lisensi, dan alamat kode sumbernya ada di THIRD-PARTY-NOTICES.txt dan folder licenses.
+
+Kontak: romy.rudiansah@gmail.com
+
+
+Putar license (freeware)
+========================
+
+Copyright (c) 2026 Romy Rudiansah. All rights reserved.
+
+Putar is free software to use (freeware). It is not open source. This license applies to putar.exe. Third-party components have their own licenses, including libmpv-2.dll.
+
+1. You may install and use Putar free of charge, for personal or commercial purposes, on as many computers as you need.
+2. You may share the unmodified Putar installer, free of charge. Sharing a link to the official website is preferred: https://romyrudiansah.github.io/putar/
+3. You may not sell Putar, modify putar.exe, or reverse engineer, decompile or disassemble it, except to the extent applicable law and clause 4 allow.
+4. Clause 3 does not limit your rights to libmpv-2.dll. That file contains mpv and FFmpeg under the LGPL. You may modify it or replace it with another compatible build, and you may reverse engineer Putar as far as needed to debug those modifications.
+5. Putar is provided "as is", without warranty of any kind. To the extent applicable law allows, its author is not liable for any damage arising from the use of Putar.
+6. The third-party components, their licenses, and the addresses of their source code are listed in THIRD-PARTY-NOTICES.txt and the licenses folder.
+
+Contact: romy.rudiansah@gmail.com

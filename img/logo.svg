@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Putar</title>
+  <rect width="256" height="256" rx="56" fill="#C6DC3A"/>
+  <path d="M224 128 L56 224.99 L56 31.01 Z" fill="#17200B" stroke="#17200B" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M154 128 L91 164.37 L91 91.63 Z" fill="#C6DC3A"/>
+  <g stroke="#C6DC3A" stroke-width="10">
+    <line x1="154" y1="128" x2="202.5" y2="156"/>
+    <line x1="91" y1="164.37" x2="42.5" y2="192.37"/>
+    <line x1="91" y1="91.63" x2="91" y2="35.63"/>
+  </g>
+</svg>
