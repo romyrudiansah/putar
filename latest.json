@@ -1,0 +1,15 @@
+{
+    "version":  "1.0.3",
+    "url":  "https://github.com/romyrudiansah/putar/releases/download/v1.0.3/Putar-Setup-1.0.3.exe",
+    "size":  36447695,
+    "sha256":  "889aae2c6cf7214023c3a77c3e55ccae3042c32064ecd93fffb53a1535b74522",
+    "date":  "2026-11-14",
+    "notes":  {
+                  "id":  [
+                             "Bilah judul jendela kini diatur gelap oleh Putar sendiri, tidak lagi mengikuti mode Windows. Diuji di Windows mode gelap; mode terang belum diuji."
+                         ],
+                  "en":  [
+                             "Putar now sets its own dark window title bar instead of following the Windows mode. Tested with Windows in dark mode; light mode is not tested yet."
+                         ]
+              }
+}
